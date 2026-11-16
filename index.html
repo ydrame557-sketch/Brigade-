@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brigade — Pilote une équipe de clippeurs payés aux vues</title>
+<meta name="description" content="Un lien de suivi par clippeur, la paie calculée au millier de vues, un tableau de bord qui montre qui rapporte. 59 €/mois jusqu’à 25 clippeurs.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brigade — Pilote une équipe de clippeurs payés aux vues">
+<meta property="og:description" content="Fini les tableurs : un lien par clippeur, la paie calculée pour toi.">
+<meta property="og:locale" content="fr_FR">
+<meta name="theme-color" content="#15171A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2315171A'/%3E%3Cpath d='M9 7h8a5 5 0 0 1 2 9.6A5.5 5.5 0 0 1 17.5 26H9z' fill='%23E8590C'/%3E%3C/svg%3E">
+<style>
+:root{--ink:#15171A;--paper:#F6F3EC;--accent:#E8590C;--line:#D9D4C7;--mute:#5B5F66;box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:88px}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+h1,h2{font-family:ui-serif,Georgia,"Times New Roman",serif;line-height:1.1;letter-spacing:-.01em;margin:0}
+h1{font-size:clamp(34px,9vw,52px);font-weight:800}
+h2{font-size:26px;font-weight:700;margin-bottom:14px}
+p{margin:0 0 12px}
+.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.logo{font:800 20px/1 ui-serif,Georgia,serif;letter-spacing:.04em;text-transform:uppercase}
+.logo i{display:inline-block;width:10px;height:10px;background:var(--accent);margin-right:8px}
+.tag{font-size:13px;color:var(--mute)}
+.hero{padding:20px 0 28px}
+.hero p.lead{font-size:19px;margin:18px 0 22px;color:#2A2E34}
+.btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:18px;padding:17px 20px;border-radius:6px;min-height:56px}
+.btn:active{transform:translateY(1px)}
+.sub{font-size:14px;color:var(--mute);text-align:center;margin-top:10px}
+section{padding:28px 0;border-top:1px solid var(--line)}
+.pain{background:var(--ink);color:var(--paper);border-top:0}
+.pain p{font-size:20px;margin:0}
+.pain b{color:#FFB487}
+ul.b{list-style:none;margin:0;padding:0}
+ul.b li{padding:14px 0 14px 34px;position:relative;border-bottom:1px solid var(--line)}
+ul.b li:last-child{border-bottom:0}
+ul.b li::before{content:"";position:absolute;left:0;top:22px;width:14px;height:14px;background:var(--accent)}
+ul.b strong{display:block}
+.pre{border:2px solid var(--ink);padding:16px;margin:0 0 20px;background:#fff}
+.pre strong{text-transform:uppercase;font-size:13px;letter-spacing:.06em}
+.card{background:#fff;border:2px solid var(--ink);padding:22px 20px;text-align:center}
+.price{font:800 56px/1 ui-serif,Georgia,serif}
+.price small{font:600 18px system-ui,sans-serif}
+.day{color:var(--mute);margin:6px 0 16px}
+.guar{background:var(--paper);border:1px dashed var(--ink);padding:14px;margin:0 0 18px;text-align:left;font-size:16px}
+.guar strong{display:block;margin-bottom:4px}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{font-weight:700;cursor:pointer;list-style:none;padding-right:24px;position:relative;min-height:28px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;top:-2px;font-size:24px;color:var(--accent)}
+details[open] summary::after{content:"–"}
+details p{margin:10px 0 0;color:#2A2E34}
+footer{padding:28px 0 36px;font-size:14px;color:var(--mute);border-top:1px solid var(--line)}
+footer a{color:var(--mute);margin-right:14px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--paper);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:5}
+.bar .btn{max-width:608px;margin:0 auto}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+@media(min-width:700px){body{font-size:18px}.bar{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><span class="logo"><i></i>Brigade</span><span class="tag">Précommande ouverte</span></header>
+
+  <main>
+    <div class="hero">
+      <h1>Pilote une équipe de clippeurs payés aux vues.</h1>
+      <p class="lead">Un lien par clippeur, la paie calculée au millier de vues, un tableau de bord qui montre qui rapporte et qui ne publie plus.</p>
+      <a class="btn" href="https://buy.stripe.com/test_4gM9ASbsfeVx5sF1pLgQE00">Précommander — 59 €/mois</a>
+      <p class="sub">Sans engagement, résiliable à tout moment.</p>
+    </div>
+
+    <section class="pain">
+      <p>20 clippeurs, 20 comptes, 20 paies à calculer à la main chaque mois. <b>Personne ne tient ce rythme plus de deux mois</b>, et ton levier s’arrête.</p>
+    </section>
+
+    <section>
+      <h2>Ce que Brigade fait pour toi</h2>
+      <ul class="b">
+        <li><strong>Un lien de suivi par clippeur</strong>Il le colle dans sa bio. Tu sais d’où viennent les clics.</li>
+        <li><strong>La paie calculée toute seule</strong>Au millier de vues, avec un plafond mensuel que tu fixes.</li>
+        <li><strong>Un tableau de bord qui tranche</strong>Qui te rapporte, qui ne publie plus. En un coup d’œil.</li>
+      </ul>
+    </section>
+
+    <section id="offre">
+      <div class="pre">
+        <strong>Précommande</strong>
+        <p style="margin:6px 0 0">Brigade est en cours de construction. Les accès ouvrent sous 3 à 4 semaines, avant le <mark>[DATE D’OUVERTURE]</mark>. Tu peux te faire rembourser à tout moment avant l’ouverture.</p>
+      </div>
+      <div class="card">
+        <div class="price">59 €<small> /mois</small></div>
+        <p class="day">Soit 1,97 € par jour. Jusqu’à 25 clippeurs.</p>
+        <div class="guar">
+          <strong>Satisfait ou remboursé</strong>
+          Écris à <mark>[EMAIL]</mark> avec l’adresse de ton paiement : remboursement intégral sous 5 jours ouvrés, à tout moment avant l’ouverture, puis pendant 30 jours après l’ouverture de ton accès.
+        </div>
+        <a class="btn" href="https://buy.stripe.com/test_4gM9ASbsfeVx5sF1pLgQE00">Précommander — 59 €/mois</a>
+        <p class="sub">Sans engagement, résiliable à tout moment. Paiement sécurisé par Stripe.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Questions fréquentes</h2>
+      <details><summary>Est-ce que ça marche pour mon cas ?</summary><p>Si plusieurs comptes diffusent tes vidéos et que tu paies au millier de vues, oui. Si tu paies tes clippeurs au forfait ou si tu n’as qu’un seul compte, Brigade n’est pas fait pour toi.</p></details>
+      <details><summary>Combien de temps ça me prend ?</summary><p>Tu crées un lien par clippeur, il le colle dans sa bio. Ensuite, Brigade fait le calcul : tu ouvres le tableau de bord au lieu de ton tableur.</p></details>
+      <details><summary>Que se passe-t-il si je veux arrêter ?</summary><p>Tu résilies par un simple message, sans motif. Plus aucun prélèvement ensuite, et la garantie ci-dessus s’applique.</p></details>
+      <details><summary>À quoi sert ce que je paie ?</summary><p>À l’accès à Brigade pour 25 clippeurs : liens de suivi, clics comptés automatiquement, vues déclarées par tes clippeurs, calcul de la paie avec plafond, tableau de bord. En précommande, tu réserves ta place et tu accèdes à l’outil dès l’ouverture.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="/legal.html#mentions">Mentions légales</a><a href="/legal.html#cgv">CGV</a><a href="/legal.html#confidentialite">Confidentialité</a></p>
+    <p>© Brigade</p>
+  </footer>
+</div>
+<div class="bar"><a class="btn" href="https://buy.stripe.com/test_4gM9ASbsfeVx5sF1pLgQE00">Précommander — 59 €/mois</a></div>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
